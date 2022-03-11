@@ -8,8 +8,10 @@ WORKDIR /app
 
 COPY requirements.txt /app/requirements.txt
 
+COPY ./R/requirement.r /app/requirement.r
+
 RUN pip3 install -r requirements.txt
 
-RUN Rscript -e "install.packages('data.table')"
+RUN Rscript requirement.r
 
 # COPY . /app
