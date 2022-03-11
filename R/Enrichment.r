@@ -6,7 +6,7 @@ rm(list = ls())
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source("./enrichment_funcs.r")
-comparisons <- c("2_1", "3_1", "4_1", "4_2")
+comparisons <- c("2_1", "4_1", "5_1", "4_2", "5_2", "5_4")
 DEG_IN_DIR <- "../results/DEG/tables"
 ERC_OUT_DIR <- "../results/enrichments"
 GSEA_OUT_DIR <- "../results/GSEA"

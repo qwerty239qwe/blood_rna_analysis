@@ -12,24 +12,26 @@ source("./plotting.r")
 ADJ_METHOD <- "BH"
 LFC_THRES <- 1
 PVAL_THRES <- 0.05
-TABLE_RESULT_DIR <- "../results/2022Feb/DEG/tables"
-PLOT_RESULT_DIR <- "../results/2022Feb/DEG/plots"
+TABLE_RESULT_DIR <- "../results/2022March/DEG/tables"
+PLOT_RESULT_DIR <- "../results/2022March/DEG/plots"
 comparisons <- list()
 comparisons[[1]] <- c("2", "1")
 comparisons[[2]] <- c("4", "1")
-comparisons[[3]] <- c("3", "1")
+comparisons[[3]] <- c("5", "1")
 comparisons[[4]] <- c("4", "2")
-outliers <- c("R031", "R040", "R046", "R050", "R054")
+comparisons[[5]] <- c("5", "2")
+comparisons[[6]] <- c("5", "4")
+outliers <- c("")  # "R031", "R040", "R046", "R050", "R054"
 
-sampleInfo <- read.table("../data/all_info/labels.csv", sep='\t', header = TRUE)
-sampleInfo <- sampleInfo[-match(outliers, sampleInfo$sample),]
-countTable <- read.table("../data/mg_counts.tsv", sep='\t', header = TRUE)
+sampleInfo <- read.table("../data/all_info/labels_5g.csv", sep='\t', header = TRUE)
+# sampleInfo <- sampleInfo[-match(outliers, sampleInfo$sample),]
+countTable <- read.table("../data/mg_counts_2203.tsv", sep='\t', header = TRUE)
 countsData <- as.matrix(countTable[,2:dim(countTable)[2]])
 
 colnames(countsData) <- str_match(colnames(countsData), "(.*)A")[,2]
 rownames(countsData) <- countTable$gene
 
-countsData <- countsData[, -match(outliers, colnames(countsData))]
+# countsData <- countsData[, -match(outliers, colnames(countsData))]
 
 sampleInfo$group <- factor(sampleInfo$group)
 sampleInfo$batch <- factor(sampleInfo$batch)
@@ -53,7 +55,7 @@ plotPCAc(vsdResult, condName = "batch")
 dev.off()
 
 dds <- DESeq(dds)
-for (i in 1:4)
+for (i in 1:length(comparisons))
 {
   print(glue("{comparisons[[i]][1]} vs {comparisons[[i]][2]}"))
   res <- results(dds, contrast = c("group", comparisons[[i]]), pAdjustMethod = ADJ_METHOD)
@@ -75,10 +77,10 @@ XLABELS <- "mean of normalized counts"
 YLABELS <- "log2 fold change"
 PLABELS <- "adjusted p-value"
 
-INDIR <- "../results/2022Feb/DEG/tables"
-OUTDIR <- "../results/2022Feb/DEG/plots"
+INDIR <- "../results/2022March/DEG/tables"
+OUTDIR <- "../results/2022March/DEG/plots"
 annotFilePath <- "../data/gene_symbol_2.tsv"
-COMPR <- c("2_1", "4_1", "3_1", "4_2")
+COMPR <- c("2_1", "4_1", "5_1", "4_2", "5_2", "5_4")
 
 n <- sapply(COMPR, plotMAs, inDir=INDIR, outDir=OUTDIR,
             x=X, y=Y, p=P, 
