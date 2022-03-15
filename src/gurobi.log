@@ -1,0 +1,530 @@
+
+Gurobi 8.1.1 (win64, Python) logging started 03/12/22 19:02:43
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp0k8cz135.lp
+Reading time = 0.08 seconds
+: 8366 rows, 26138 columns, 111670 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpz_7g9c68.lp
+Reading time = 0.06 seconds
+: 6258 rows, 21156 columns, 89912 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpn7fmoapz.lp
+Reading time = 0.07 seconds
+: 8366 rows, 26138 columns, 111670 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpc92v48v6.lp
+Reading time = 0.06 seconds
+: 6348 rows, 21436 columns, 91442 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpcsktrevk.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpnlz73tdz.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpuy9vy5tz.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp3g3ji_zx.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpf4nciip5.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpd31kffeh.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpwsrseop2.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpkjo4rfng.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpdrq8or5m.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp9fu0yy50.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmps4900ogk.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmph339bij6.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpm4nequxq.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpqopfj72f.lp
+Reading time = 0.05 seconds
+: 5124 rows, 17780 columns, 74580 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp5vegosim.lp
+Reading time = 0.05 seconds
+: 5342 rows, 18202 columns, 76884 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpc5aqiwfz.lp
+Reading time = 0.05 seconds
+: 5145 rows, 17828 columns, 74832 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpjrn5czr9.lp
+Reading time = 0.05 seconds
+: 5133 rows, 17810 columns, 74712 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpyf2wsmun.lp
+Reading time = 0.06 seconds
+: 6342 rows, 21424 columns, 91252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpqh066sbc.lp
+Reading time = 0.06 seconds
+: 6341 rows, 21418 columns, 91210 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmplrwxpt5n.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp3jx5cfg_.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp9ysoppbw.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmprj3g7y3n.lp
+Reading time = 0.05 seconds
+: 5375 rows, 18294 columns, 77290 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp1epwymd_.lp
+Reading time = 0.05 seconds
+: 5375 rows, 18294 columns, 77290 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpm23gjt5g.lp
+Reading time = 0.05 seconds
+: 5375 rows, 18294 columns, 77290 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp0ab3qd_n.lp
+Reading time = 0.05 seconds
+: 5375 rows, 18294 columns, 77290 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp39um16g7.lp
+Reading time = 0.05 seconds
+: 5375 rows, 18294 columns, 77290 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp7mfmueo6.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp3st944wk.lp
+Reading time = 0.06 seconds
+: 5344 rows, 18226 columns, 77104 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpbayb007y.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpdkwldrjv.lp
+Reading time = 0.05 seconds
+: 5139 rows, 17802 columns, 74728 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmph0rppw1p.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpi5lcsxgr.lp
+Reading time = 0.05 seconds
+: 5117 rows, 17764 columns, 74374 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp9t1icoch.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpivbp4m9_.lp
+Reading time = 0.05 seconds
+: 5347 rows, 18208 columns, 76936 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpwd82ws4c.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpwphck6ch.lp
+Reading time = 0.05 seconds
+: 5123 rows, 17782 columns, 74662 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmptma64wan.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp9xf3824_.lp
+Reading time = 0.05 seconds
+: 5106 rows, 17746 columns, 74532 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpnikvsv6d.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp_asu23zj.lp
+Reading time = 0.05 seconds
+: 5088 rows, 17672 columns, 74188 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp6b2e7t3f.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpf34_hfim.lp
+Reading time = 0.05 seconds
+: 4980 rows, 17380 columns, 73108 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmprkx0h1t8.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpkobwerfj.lp
+Reading time = 0.05 seconds
+: 5161 rows, 17894 columns, 75202 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpo5nnh3vp.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpuf5pe1r5.lp
+Reading time = 0.05 seconds
+: 5135 rows, 17796 columns, 74826 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp4s62pumx.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp_2md0t86.lp
+Reading time = 0.05 seconds
+: 5129 rows, 17808 columns, 74642 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmprymotphd.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpe8cfo0wj.lp
+Reading time = 0.05 seconds
+: 5353 rows, 18252 columns, 77058 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpwl1pyw1x.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpbggt5uef.lp
+Reading time = 0.05 seconds
+: 5164 rows, 17906 columns, 75084 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpkige864w.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpwzp6m6j2.lp
+Reading time = 0.05 seconds
+: 5369 rows, 18292 columns, 77308 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpqmiswmdu.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpww50fcgy.lp
+Reading time = 0.05 seconds
+: 5109 rows, 17746 columns, 74488 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpbszax36f.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp4jvuws_0.lp
+Reading time = 0.05 seconds
+: 5125 rows, 17778 columns, 74558 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp1107xekt.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpybf5x16y.lp
+Reading time = 0.05 seconds
+: 5005 rows, 17412 columns, 72954 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp7atn_ovc.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp5n__xpxi.lp
+Reading time = 0.05 seconds
+: 5117 rows, 17742 columns, 74422 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpulzbl6gp.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpf4suobt7.lp
+Reading time = 0.05 seconds
+: 5387 rows, 18322 columns, 77476 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpsftdvfrw.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpa_95e_bg.lp
+Reading time = 0.05 seconds
+: 5111 rows, 17744 columns, 74460 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmppdupx4e7.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpc_wqabcf.lp
+Reading time = 0.05 seconds
+: 5134 rows, 17810 columns, 74798 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp3h75iyog.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpiykbh4m8.lp
+Reading time = 0.05 seconds
+: 5359 rows, 18244 columns, 77030 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp00nkw4fv.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpku1lqflj.lp
+Reading time = 0.05 seconds
+: 5420 rows, 18432 columns, 78042 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp7jouozx7.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp06xp06gy.lp
+Reading time = 0.05 seconds
+: 5360 rows, 18268 columns, 77298 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpbwwd0hdl.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpgjss0zzj.lp
+Reading time = 0.05 seconds
+: 5178 rows, 17966 columns, 75238 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpwwzx171b.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpsvtmttyv.lp
+Reading time = 0.05 seconds
+: 5386 rows, 18336 columns, 77534 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpyndj3yyg.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpf41d2n0u.lp
+Reading time = 0.05 seconds
+: 5377 rows, 18298 columns, 77334 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpey6ez7yl.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpbuddiuaw.lp
+Reading time = 0.05 seconds
+: 5409 rows, 18388 columns, 77668 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpmo1qyrla.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpe186xh4m.lp
+Reading time = 0.05 seconds
+: 5121 rows, 17770 columns, 74894 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp0hue59rq.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpjdts7fsp.lp
+Reading time = 0.05 seconds
+: 5084 rows, 17658 columns, 74230 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpjzupbtb1.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmppo6b3x_s.lp
+Reading time = 0.05 seconds
+: 5179 rows, 17932 columns, 75104 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpd5e18mv4.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp_geuixuf.lp
+Reading time = 0.05 seconds
+: 5100 rows, 17736 columns, 74396 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpob23cs1i.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp4vzzsbi2.lp
+Reading time = 0.05 seconds
+: 5028 rows, 17500 columns, 73574 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmps14d3hgv.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpl3h2plru.lp
+Reading time = 0.05 seconds
+: 5089 rows, 17670 columns, 74184 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpw4wexbro.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmprap090ea.lp
+Reading time = 0.05 seconds
+: 5381 rows, 18334 columns, 77464 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpfgezj38b.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpxgej5d6w.lp
+Reading time = 0.05 seconds
+: 5383 rows, 18346 columns, 77516 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpc74kpj9a.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpr9nrbbel.lp
+Reading time = 0.05 seconds
+: 5135 rows, 17818 columns, 74894 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpzwjn7_r8.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpkb4i0_bn.lp
+Reading time = 0.05 seconds
+: 5359 rows, 18240 columns, 76976 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp4pu818oa.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpx_bk4y_q.lp
+Reading time = 0.05 seconds
+: 5386 rows, 18358 columns, 77488 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmput6vu4n8.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpha0eq6aw.lp
+Reading time = 0.05 seconds
+: 5105 rows, 17724 columns, 74394 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpooxau286.lp
+Reading time = 0.08 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpbsyffsxi.lp
+Reading time = 0.05 seconds
+: 5003 rows, 17420 columns, 73252 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpm7t4n7rf.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpjx3ysqtp.lp
+Reading time = 0.05 seconds
+: 5132 rows, 17804 columns, 74738 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpxfgl0ep5.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpkqbwjali.lp
+Reading time = 0.05 seconds
+: 5421 rows, 18434 columns, 78020 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpbkm6ykk2.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpaefydd8t.lp
+Reading time = 0.05 seconds
+: 5373 rows, 18304 columns, 77360 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpk5uoxxd5.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp1vfjf7su.lp
+Reading time = 0.05 seconds
+: 5392 rows, 18370 columns, 77736 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp21y1j1c1.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp_jgj3r5y.lp
+Reading time = 0.05 seconds
+: 5078 rows, 17698 columns, 74184 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp9b4xa9dy.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpjsjtqc4w.lp
+Reading time = 0.05 seconds
+: 5369 rows, 18274 columns, 77038 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpsa_wja0o.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpdm8qrm2h.lp
+Reading time = 0.05 seconds
+: 5313 rows, 18124 columns, 76668 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpaz3nzonb.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpeilyxvf7.lp
+Reading time = 0.05 seconds
+: 5072 rows, 17616 columns, 73968 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpd90ofa18.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpt7t9c9tl.lp
+Reading time = 0.05 seconds
+: 5336 rows, 18186 columns, 76676 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpjtx0jgj6.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpr48n98om.lp
+Reading time = 0.05 seconds
+: 5069 rows, 17616 columns, 73978 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpo98ajd8x.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpqwt6nlux.lp
+Reading time = 0.05 seconds
+: 5387 rows, 18332 columns, 77408 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp0fngx0um.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp5_vkgf5m.lp
+Reading time = 0.05 seconds
+: 5386 rows, 18372 columns, 77574 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmplibqq0rj.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp_cxm8dvi.lp
+Reading time = 0.05 seconds
+: 5382 rows, 18340 columns, 77422 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpte2n103m.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpmseras0j.lp
+Reading time = 0.05 seconds
+: 5112 rows, 17732 columns, 74472 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpg_oyjmd3.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp_yffgd57.lp
+Reading time = 0.05 seconds
+: 4981 rows, 17160 columns, 72212 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp7ylvz7vn.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpfvev23x9.lp
+Reading time = 0.05 seconds
+: 5111 rows, 17748 columns, 74554 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpcj8owzfj.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp_7wmdbm1.lp
+Reading time = 0.05 seconds
+: 5154 rows, 17882 columns, 74994 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp37zuj89f.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpq24te4h5.lp
+Reading time = 0.05 seconds
+: 5101 rows, 17716 columns, 74394 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp0jk0culx.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpwp1ghes_.lp
+Reading time = 0.05 seconds
+: 5366 rows, 18262 columns, 76936 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpu3164l0q.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp4gs118v0.lp
+Reading time = 0.05 seconds
+: 5248 rows, 17902 columns, 75564 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp4wprhpc_.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpoh_pwyiu.lp
+Reading time = 0.05 seconds
+: 5113 rows, 17762 columns, 74394 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpxmrv2kno.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpdnp6rbop.lp
+Reading time = 0.05 seconds
+: 5088 rows, 17664 columns, 74048 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp9310t2rh.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpc1i35o72.lp
+Reading time = 0.05 seconds
+: 5361 rows, 18256 columns, 77198 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpe0lkqn50.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp80yv0sgh.lp
+Reading time = 0.05 seconds
+: 5375 rows, 18294 columns, 77124 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpna0zugp4.lp
+Reading time = 0.06 seconds
+: 6340 rows, 21414 columns, 91182 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpeq22jh6l.lp
+Reading time = 0.05 seconds
+: 5396 rows, 18364 columns, 77778 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpr03w2qtr.lp
+Reading time = 0.10 seconds
+: 4157 rows, 23308 columns, 113878 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp5hqoyfpo.lp
+Reading time = 0.10 seconds
+: 4192 rows, 23418 columns, 115090 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpxkjlx9sb.lp
+Reading time = 0.09 seconds
+: 3853 rows, 22088 columns, 107440 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmphx7yy85p.lp
+Reading time = 0.10 seconds
+: 3955 rows, 22968 columns, 111630 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp4wtjfc75.lp
+Reading time = 0.10 seconds
+: 4118 rows, 23254 columns, 113546 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpd8jks6tz.lp
+Reading time = 0.10 seconds
+: 3908 rows, 22404 columns, 108752 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpewgx6kkl.lp
+Reading time = 0.10 seconds
+: 3949 rows, 23100 columns, 112314 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmp_5jg9svs.lp
+Reading time = 0.10 seconds
+: 3917 rows, 22928 columns, 111574 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpkhl04gn8.lp
+Reading time = 0.10 seconds
+: 3981 rows, 23556 columns, 114440 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmpsj6kjix_.lp
+Reading time = 0.10 seconds
+: 3895 rows, 22416 columns, 109088 nonzeros
+Read LP format model from file C:\Users\user\AppData\Local\Temp\tmptyh9w2nc.lp
+Reading time = 0.10 seconds
+: 3923 rows, 23162 columns, 112574 nonzeros
+
+Gurobi 8.1.1 (win64, Python) logging started 03/15/22 14:59:39
+
+Academic license - for non-commercial use only
