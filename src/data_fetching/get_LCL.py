@@ -7,7 +7,9 @@ import argparse
 
                 
 def get_LCL_fastq(file_dir="."):
-    meta = pd.read_csv((Path(__file__) / Path("../PRJEB3366_tsv.txt")), sep='\t')
+    meta_path = Path.resolve((Path(__file__) / Path("../PRJEB3366_tsv.txt")))
+    print(f"Reading metadata from {meta_path}")
+    meta = pd.read_csv(meta_path, sep='\t')
     for i, row in meta.iterrows():
         for fq in row["fastq_ftp"].split(";"):
             file_name = Path(fq).name
