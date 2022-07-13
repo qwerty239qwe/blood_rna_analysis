@@ -1,0 +1,57 @@
+ADASYN:
+  n_neighbors:
+    high: 7
+    low: 3
+    type: i
+BorderlineSMOTE:
+  k_neighbors:
+    high: 7
+    low: 3
+    type: i
+  kind:
+    choices:
+    - borderline-1
+    - borderline-2
+    type: c
+  m_neighbors:
+    high: 15
+    low: 5
+    type: i
+EditedNearestNeighbours:
+  n_neighbors:
+    high: 7
+    low: 3
+    type: i
+SMOTE:
+  k_neighbors:
+    high: 7
+    low: 3
+    type: i
+SMOTEENN:
+  enn:n_neighbors:
+    high: 7
+    low: 3
+    type: i
+  smote:k_neighbors:
+    high: 7
+    low: 3
+    type: i
+SMOTETomek:
+  smote:k_neighbors:
+    high: 7
+    low: 3
+    type: i
+SVMSMOTE:
+  k_neighbors:
+    high: 7
+    low: 3
+    type: i
+  m_neighbors:
+    high: 15
+    low: 5
+    type: i
+  out_step:
+    high: 0.8
+    low: 0.3
+    type: f
+TomekLinks: {}

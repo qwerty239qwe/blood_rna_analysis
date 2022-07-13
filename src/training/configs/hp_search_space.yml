@@ -1,0 +1,201 @@
+gbm:
+  criterion:
+    choices:
+    - friedman_mse
+    - mse
+    type: c
+  learning_rate:
+    high: 0.5
+    log: true
+    low: 0.001
+    type: f
+  loss:
+    choices:
+    - deviance
+    type: c
+  max_depth:
+    high: 10
+    low: 2
+    type: i
+  max_features:
+    choices:
+    - log2
+    - sqrt
+    type: c
+  min_samples_leaf:
+    high: 0.5
+    low: 0.01
+    type: f
+  min_samples_split:
+    high: 0.5
+    low: 0.01
+    type: f
+  n_estimators:
+    choices:
+    - 1000
+    type: c
+  n_iter_no_change:
+    choices:
+    - 1000000
+    type: c
+  subsample:
+    high: 1
+    low: 0.1
+    type: f
+log_reg:
+  C:
+    high: 1000.0
+    log: true
+    low: 0.001
+    type: f
+  class_weight:
+    choices:
+    - balanced
+    type: c
+  max_iter:
+    choices:
+    - 10000
+    type: c
+mlp:
+  activation:
+    choices:
+    - logistic
+    - tanh
+    - relu
+    type: c
+  alpha:
+    high: 10
+    log: true
+    low: 1.0e-06
+    type: f
+  early_stopping:
+    choices:
+    - true
+    type: c
+  hidden_layer_sizes:
+    choices:
+    - !!python/tuple
+      - 512
+    - !!python/tuple
+      - 512
+      - 256
+    - !!python/tuple
+      - 512
+      - 256
+      - 128
+    - !!python/tuple
+      - 512
+      - 128
+      - 32
+    type: c
+  max_iter:
+    choices:
+    - 1000
+    type: c
+  momentum:
+    high: 0.9
+    log: true
+    low: 0.2
+    type: f
+  solver:
+    choices:
+    - lbfgs
+    - sgd
+    - adam
+    type: c
+rf:
+  bootstrap:
+    choices:
+    - true
+    - false
+    type: c
+  max_depth:
+    high: 40
+    low: 5
+    type: i
+  max_features:
+    choices:
+    - auto
+    - sqrt
+    type: c
+  min_samples_leaf:
+    high: 10
+    low: 2
+    type: i
+  min_samples_split:
+    high: 10
+    low: 3
+    type: i
+  n_estimators:
+    choices:
+    - 1000
+    type: c
+svm:
+  C:
+    high: 1000.0
+    log: true
+    low: 0.001
+    type: f
+  degree:
+    high: 4
+    low: 1
+    type: i
+  gamma:
+    high: 1000.0
+    log: true
+    low: 0.001
+    type: f
+  kernel:
+    choices:
+    - poly
+    - rbf
+    type: c
+  max_iter:
+    choices:
+    - 5000
+    type: c
+  probability:
+    choices:
+    - true
+    type: c
+xgb:
+  colsample_bytree:
+    high: 0.8
+    log: true
+    low: 0.2
+    type: f
+  early_stopping_rounds:
+    choices:
+    - 25
+    type: c
+  eval_metric:
+    choices:
+    - aucpr
+    type: c
+  gamma:
+    high: 10
+    log: true
+    low: 1.0e-08
+    type: f
+  learning_rate:
+    high: 0.1
+    log: true
+    low: 0.001
+    type: f
+  max_depth:
+    high: 15
+    low: 2
+    type: i
+  n_estimators:
+    choices:
+    - 1000
+    type: c
+  reg_lambda:
+    high: 10
+    log: true
+    low: 1.0e-08
+    type: f
+  tree_method:
+    choices:
+    - hist
+    type: c
