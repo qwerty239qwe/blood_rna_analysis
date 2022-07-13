@@ -140,7 +140,10 @@ class StudyScheduler:
         
     @property
     def best_clf(self):
-        return self.clf(**{k: v for k, v in self.study.best_params.items() if k not in ['n_features', "early_stopping_rounds", "eval_metric"]})
+        return self.clf(**{k: v for k, v in self.study.best_params.items() if k not in ['n_features', 
+                                                                                        "early_stopping_rounds", 
+                                                                                        "eval_metric", 
+                                                                                        "resampler"]})
     
     @property
     def best_params(self):

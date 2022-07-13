@@ -32,13 +32,13 @@ def main():
                         dest="filename",
                         metavar='FILE',
                         help ='path to the config file',
-                        default='configs/run1.yaml')
+                        default='configs/run1.yml')
     args = parser.parse_args()
     config = load_config(args.filename)
     print(config)
     
-    hyperparams = load_hp(Path(__file__) / "configs/hp_search_space.yml")
-    sampling_hp = load_hp(Path(__file__) / "configs/sampling_hp_search_space.yml")
+    hyperparams = load_hp(Path(__file__) / "../configs/hp_search_space.yml")
+    sampling_hp = load_hp(Path(__file__) / "../configs/sampling_hp_search_space.yml")
     
     labels = pd.read_excel(config["label_path"])
     used_unit = config["used_unit"]
@@ -107,7 +107,8 @@ def main():
             data_row["ds"] = ds_name
             data_row["gs"] = si
             results.append(data_row)
-        pd.DataFrame(results).to_csv(dir_path / f"result_{ds_name}_u_{used_unit}_gs_{si}_model_{'and'.join(config["trained_models"])}.csv")
+        m_name = 'and'.join(config["trained_models"])
+        pd.DataFrame(results).to_csv(dir_path / f"result_{ds_name}_u_{used_unit}_gs_{si}_model_{m_name}.csv")
         
 if __name__ == "__main__":
     main()
