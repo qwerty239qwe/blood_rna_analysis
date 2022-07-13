@@ -28,7 +28,14 @@ import optuna
 import xgboost as xgb
 
 
-IMB_SAMPLERS = {"SMOTE": SMOTE, "ADASYN": ADASYN, "SVMSMOTE": SVMSMOTE}
+IMB_SAMPLERS = {"SMOTE": SMOTE, 
+                "ADASYN": ADASYN, 
+                "SVMSMOTE": SVMSMOTE,
+               "BorderlineSMOTE": BorderlineSMOTE,
+               "EditedNearestNeighbours": EditedNearestNeighbours,
+               "TomekLinks": TomekLinks,
+               "SMOTEENN": SMOTEENN,
+               "SMOTETomek": SMOTETomek}
 
     
 def get_params(trial, param_struct):
@@ -82,8 +89,9 @@ def objective(trial,
     ftr_sel_records = []
     scores = []
     for i, (train, test) in enumerate(cv.split(X, y)):
-        selector = SelectKBest(mutual_info_classif, k=n_features).fit(X[train], y[train])
-        selected_X_train, selected_X_test = selector.transform(X[train]), selector.transform(X[test])
+        X_train, y_train = sampler(**sampler_param_grid).fit_resample(X[train], y[train])
+        selector = SelectKBest(mutual_info_classif, k=n_features).fit(X_train, y_train)
+        selected_X_train, selected_X_test = selector.transform(X_train), selector.transform(X[test])
         ftr_sel_records.extend(ftr_names[selector.get_support()])
         if use_sample_weight:
             if use_evalset:
@@ -136,6 +144,8 @@ class StudyScheduler:
                                        use_evalset=(self.clf_name == "xgb"),
                                        file_name_prefix=file_name_prefix, clf=self.clf)
         self.study.optimize(func, n_trials=n_trials, gc_after_trial = True)
+        self._best_sampler_name = self.study.best_params["resampler"]
+        self._best_sampler_param_names = list(self.sampling_param_structs[self._best_sampler_name].keys())
         self.study.trials_dataframe().to_csv(f"{file_name_prefix}_bo_trials.csv")
         
     @property
@@ -143,7 +153,11 @@ class StudyScheduler:
         return self.clf(**{k: v for k, v in self.study.best_params.items() if k not in ['n_features', 
                                                                                         "early_stopping_rounds", 
                                                                                         "eval_metric", 
-                                                                                        "resampler"]})
+                                                                                        "resampler"] + self._best_sampler_param_names})
+    @property
+    def best_sampler(self):
+        sampler_params = {k: v for k, v in self.study.best_params.items() if k in self._best_sampler_param_names}
+        return IMB_SAMPLERS[self._best_sampler_name](**sampler_params)
     
     @property
     def best_params(self):

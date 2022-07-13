@@ -69,11 +69,13 @@ def main():
 
             for i, (train, test) in enumerate(skf.split(X, y)):
                 stud = StudyScheduler(clf_name=c_name, param_stucts=hyperparams, sampling_param_structs=sampling_hp, pos_label=pos_label)
-                stud.hyper_opt(X=X[train], y=y[train], ftr_names=ftr, n_trials=50, 
+                stud.hyper_opt(X=X[train], y=y[train], ftr_names=ftr, n_trials=100, 
                                file_name_prefix=str(dir_path / f"{ds_name}_{used_unit}_{si}_{c_name}_{i}"))
                 fsel = SelectKBest(mutual_info_classif, k=stud.best_n_features).fit(X[train], y[train])
                 X_train, X_test = fsel.transform(X[train]), fsel.transform(X[test])
-                clf = stud.best_clf.fit(X_train, y[train])
+                X_train, y_train = stud.best_sampler.fit_resample(X_train, y[train])
+                clf = stud.best_clf.fit(X_train, y_train)
+                
                 assert X_test.shape[1] < X.shape[0]
 
                 y_pred = clf.predict(X_test)
