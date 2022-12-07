@@ -2,7 +2,7 @@ gbm:
   criterion:
     choices:
     - friedman_mse
-    - mse
+    - squared_error
     type: c
   learning_rate:
     high: 0.5
@@ -152,7 +152,7 @@ svm:
     type: c
   max_iter:
     choices:
-    - 5000
+    - 10000
     type: c
   probability:
     choices:
@@ -199,3 +199,21 @@ xgb:
     choices:
     - hist
     type: c
+knn:
+  n_neighbors:
+    high: 10
+    low: 2
+    type: i
+  weights:
+    choices:
+    - uniform
+    - distance
+    type: c
+  leaf_size:
+    high: 100
+    low: 10
+    type: i
+  p:
+    high: 3
+    low: 1
+    type: i

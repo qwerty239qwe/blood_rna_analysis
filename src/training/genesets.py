@@ -49,8 +49,9 @@ class SetContainer:
 def get_genesets(what="all_union"):
     mito = pd.read_csv("../results/2022May/genesets/mito.csv")["mito"].to_list()
     meta = pd.read_csv("../results/2022May/genesets/meta.csv")["meta"].to_list()
-    de = pd.read_csv("../results/2022March/DEG/tables/DE_2_1.tsv", sep='\t')
-    degs = de[(de["padj"] <= 0.1) & (abs(de["log2FoldChange"]) > 0.3)].index.to_series().apply(lambda x: x[:x.index(".")]).to_list()
+    #de = pd.read_csv("../results/2022March/DEG/tables/DE_2_1.tsv", sep='\t')
+    de = pd.read_csv("../results/final/DEG/tables/DE_2_1.tsv", sep='\t')
+    degs = de[(de["padj"] <= 0.1) & (abs(de["log2FoldChange"]) > 0.3)].index.to_series().to_list()
     returned_set = {"DEG_or_meta_or_mito": set(degs) | set(meta) | set(mito)}
     indiv_sets = {
         "DEG": set(degs),

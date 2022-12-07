@@ -1,0 +1,10 @@
+data_path: ../data/final/d1_log_rle.csv
+ds_name: ds3
+label_path: ../data/final/labels_final.csv
+output_dir: ../results/final/ML/d1
+trained_models:
+- xgb
+used_unit: log_rle
+use_gs: false
+use_pca: true
+use_flux: false

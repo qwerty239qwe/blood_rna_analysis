@@ -1,0 +1,10 @@
+data_path: ../data/final/d7_log_tmm.csv
+ds_name: d7
+label_path: ../data/final/labels_final_7.csv
+output_dir: ../results/final/ML/d7
+trained_models:
+- svm
+use_flux: false
+use_gs: false
+use_pca: false
+used_unit: log_tmm

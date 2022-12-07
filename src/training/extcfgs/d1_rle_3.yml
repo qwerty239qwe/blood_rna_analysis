@@ -1,0 +1,11 @@
+data_path: ../data/comp/2022/log_rle.csv
+ds_name: d1
+label_path: ../data/comp/2022/labels.csv
+output_dir: ../results/final/ML/cpmr_1
+trained_models:
+- rf
+used_unit: log_rle
+use_gs: false
+use_pca: false
+use_flux: false
+pos_weight: 0.1

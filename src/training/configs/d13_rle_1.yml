@@ -1,0 +1,10 @@
+data_path: ../data/final/d13_log_rle.csv
+ds_name: d13
+label_path: ../data/final/labels_final_13.csv
+output_dir: ../results/final/ML/d13
+trained_models:
+- log_reg
+use_flux: false
+use_gs: false
+use_pca: false
+used_unit: log_rle

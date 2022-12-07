@@ -1,0 +1,10 @@
+data_path: ../data/final/d6_log_cnt.csv
+ds_name: d6
+label_path: ../data/final/labels_final_6.csv
+output_dir: ../results/final/ML/d6
+trained_models:
+- svm
+use_flux: false
+use_gs: false
+use_pca: false
+used_unit: log_cnt

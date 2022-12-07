@@ -1,7 +1,0 @@
-data_path: ../results/2022May/datasets/ds7_log_rle.csv
-ds_name: ds7
-label_path: ../data/all_info/labels_may_mg.xlsx
-output_dir: ../results/2022May/CLF/ds7
-trained_models:
-- svm
-used_unit: log_rle

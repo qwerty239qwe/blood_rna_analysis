@@ -1,0 +1,10 @@
+data_path: ../data/final/d1_log_tmm.csv
+ds_name: d1
+label_path: ../data/final/labels_final_1.csv
+output_dir: ../results/final/ML/d1
+trained_models:
+- xgb
+use_flux: false
+use_gs: false
+use_pca: false
+used_unit: log_tmm

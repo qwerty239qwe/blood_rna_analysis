@@ -1,0 +1,10 @@
+data_path: ../data/final/d8_log_rle.csv
+ds_name: d8
+label_path: ../data/final/labels_final_8.csv
+output_dir: ../results/final/ML/d8
+trained_models:
+- mlp
+use_flux: false
+use_gs: false
+use_pca: true
+used_unit: log_rle

@@ -1,0 +1,10 @@
+data_path: ../data/final/d12_log_rle.csv
+ds_name: d12
+label_path: ../data/final/labels_final_12.csv
+output_dir: ../results/final/ML/d12
+trained_models:
+- rf
+use_flux: false
+use_gs: false
+use_pca: false
+used_unit: log_rle

@@ -1,0 +1,10 @@
+data_path: ../data/final/d5_log_cnt.csv
+ds_name: d5
+label_path: ../data/final/labels_final_5.csv
+output_dir: ../results/final/ML/d5
+trained_models:
+- gbm
+use_flux: false
+use_gs: false
+use_pca: false
+used_unit: log_cnt
