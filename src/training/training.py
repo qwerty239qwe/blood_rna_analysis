@@ -130,6 +130,8 @@ def objective(trial,
                 X_train, y_train = sampler(**sampler_param_grid).fit_resample(X_train, y_train)
         except RuntimeError as e:
             raise optuna.TrialPruned(e)
+        except ValueError as e:
+            raise optuna.TrialPruned(e)
         
         if use_sample_weight:
             if pos_weight > 1:
