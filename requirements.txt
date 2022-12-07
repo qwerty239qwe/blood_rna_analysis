@@ -1,7 +1,10 @@
+scikit-learn
+umap-learn
 pandas
 numpy
-scikit-learn
+imbalanced-learn
+optuna
 matplotlib
-seaborn
-scipy
-cobra
+xgboost
+joblib
+PyYAML==5.4.1

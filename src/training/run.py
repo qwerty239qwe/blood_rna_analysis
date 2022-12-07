@@ -29,8 +29,8 @@ def main():
     config = load_config(f"./training/configs/{args.filename}")
     print(config)
     
-    hyperparams = load_hp(Path(__file__) / "../configs/hp_search_space.yml")
-    sampling_hp = load_hp(Path(__file__) / "../configs/sampling_hp_search_space.yml")
+    hyperparams = load_hp(Path(__file__).parent / "configs/hp_search_space.yml")
+    sampling_hp = load_hp(Path(__file__).parent / "configs/sampling_hp_search_space.yml")
     
     labels = pd.read_csv(config["label_path"])
     used_unit = config["used_unit"]
