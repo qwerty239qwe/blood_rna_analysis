@@ -1,0 +1,10 @@
+scikit-learn
+umap-learn
+pandas
+numpy
+imbalanced-learn
+optuna
+matplotlib
+xgboost
+joblib
+PyYAML
